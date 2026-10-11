@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      VIBRATE is the only permission the app needs.
+      It is a "normal" permission: Android grants it automatically, and the user
+      never sees a permission dialog. It is required for the vibration feedback.
+    -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- The app works great on devices without a vibrator, so this is optional. -->
+    <uses-feature
+        android:name="android.hardware.vibrator"
+        android:required="false" />
+
+    <!--
+      The app needs NO internet permission:
+      the dice are rolled on the device and all data is stored locally.
+    -->
+
+    <application
+        android:name=".DiceRollApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiceRoll">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.DiceRoll.Starting"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

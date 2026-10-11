@@ -1,0 +1,26 @@
+# Gradle / Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Release artefacts
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing material - NEVER commit your upload keystore or passwords
+*.jks
+*.keystore
+keystore.properties
+
+# Kotlin / JVM
+.kotlin

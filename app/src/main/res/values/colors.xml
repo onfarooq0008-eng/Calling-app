@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Older devices / older launchers use these bitmaps (see mipmap-anydpi-v26 for Android 8+). -->
+
+    <!-- Window background behind the Compose UI (avoids a white flash while the app starts). -->
+    <color name="window_background">#FF0B1024</color>
+
+    <!-- Background colour of the splash screen, matching the dark navy app theme. -->
+    <color name="splash_background">#FF0B1024</color>
+
+    <!-- Background layer of the adaptive launcher icon. -->
+    <color name="ic_launcher_background">#FF1B2657</color>
+</resources>

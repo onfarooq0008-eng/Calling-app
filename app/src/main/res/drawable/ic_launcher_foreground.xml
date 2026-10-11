@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher icon foreground: white dice, drawn for the 66dp adaptive icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FF9FB0D8"
+        android:pathData="M40.00,28.80 L73.60,28.80 A11.20,11.20 0 0 1 84.80,40.00 L84.80,73.60 A11.20,11.20 0 0 1 73.60,84.80 L40.00,84.80 A11.20,11.20 0 0 1 28.80,73.60 L28.80,40.00 A11.20,11.20 0 0 1 40.00,28.80 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M37.20,26.00 L70.80,26.00 A11.20,11.20 0 0 1 82.00,37.20 L82.00,70.80 A11.20,11.20 0 0 1 70.80,82.00 L37.20,82.00 A11.20,11.20 0 0 1 26.00,70.80 L26.00,37.20 A11.20,11.20 0 0 1 37.20,26.00 Z" />
+    <path
+        android:fillColor="#FF16181F"
+        android:pathData="M36.47,41.12 a4.65,4.65 0 1 0 9.30,0 a4.65,4.65 0 1 0 -9.30,0 Z" />
+    <path
+        android:fillColor="#FF16181F"
+        android:pathData="M62.23,41.12 a4.65,4.65 0 1 0 9.30,0 a4.65,4.65 0 1 0 -9.30,0 Z" />
+    <path
+        android:fillColor="#FF16181F"
+        android:pathData="M49.35,54.00 a4.65,4.65 0 1 0 9.30,0 a4.65,4.65 0 1 0 -9.30,0 Z" />
+    <path
+        android:fillColor="#FF16181F"
+        android:pathData="M36.47,66.88 a4.65,4.65 0 1 0 9.30,0 a4.65,4.65 0 1 0 -9.30,0 Z" />
+    <path
+        android:fillColor="#FF16181F"
+        android:pathData="M62.23,66.88 a4.65,4.65 0 1 0 9.30,0 a4.65,4.65 0 1 0 -9.30,0 Z" />
+</vector>

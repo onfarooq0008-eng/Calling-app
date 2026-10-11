@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+      The XML theme is only a thin shell:
+      every colour, font and shape in the app is defined in Jetpack Compose
+      (see ui/theme/Theme.kt). This theme only controls the window before the
+      first Compose frame is drawn.
+    -->
+    <style name="Theme.DiceRoll" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+
+    <!--
+      Splash screen theme (androidx.core:core-splashscreen).
+      Android shows this screen while the app process starts, so there is no
+      white flash and the app feels instantly ready.
+    -->
+    <style name="Theme.DiceRoll.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.DiceRoll</item>
+    </style>
+
+</resources>
